@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Star Christian Academy</title>
+    <link rel="icon" href="html1.png" type="image/x-icon">
+    <link rel="stylesheet" href="dca.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                
+            </div> 
+            <h1>DayStar Christian Academy (DCA)</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showSection('home')"> Home</a></li>
+                    <li><a href="#" onclick="showSection('staff-login')">Staff Login</a></li>
+                    <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+                    <li><a href="#" onclick="showSection('about')">About Us</a></li>
+                    <li><a href="portal.html">PORTAL</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+<p></p>
+       
+        <section id="home" class="content-section" style="background-image: url('school pics/IMG_20250329_110117_780@1637245051.jpg'); background-size: 1000px; background-repeat: no-repeat; background-position: center; width: 70%; margin: 30px auto; height: 250px; position: relative; border-radius: 10px; box-shadow: 20px 10px 20px rgba(24, 4, 207, 0.856);">
+            <div class="container text-center">
+                <h4 style="font-size: large;">Welcome to ...✍<br>DayStar Christian Academy✍</h4>
+                <p>✍✍✍<i><b>   In God We Trust  !!!  </b> </i>✍✍✍</p>
+            </div>
+            <!-- Live Announcement Bar -->
+            <div class="announcement-bar">
+                <span class="red-dot"></span>
+                <div class="announcement-text">
+                    <p>📢 LIVE: Admission is ongoing. Enroll your child today! 🏫 | Day Star Christian Academy......IN GOD WE TRUST🙏🤝</p>
+                </div>
+            </div>
+        </section>
+        <section id="view-school-btn">
+            <button class="view-school-btn" onclick="toggleModal()">View My School</button>
+                
+         </section> 
+       
+   
+        <!-- Modal -->
+            <div id="schoolModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color: rgba(0,0,0,0.7); z-index:1000; overflow:auto;">
+                <div style="background:white; margin: 40px auto; padding: 20px; width:90%; max-width:1000px; border-radius:10px; position:relative;">
+                    <span onclick="closeModal()" style="position:absolute; top:10px; right:15px; font-size:25px; cursor:pointer;"> &times;</span>
+                    
+                    <!-- YOUR SECTION GOES HERE -->
+                    <section class="content-section" style="padding: 20px;">
+                        <div class="section-header">
+                            <h2>🎓 School Life and Memories</h2>
+                            <p>Experience the joy, learning, and moments that make Day Star Christian Academy special!</p>
+                        </div>
+                    
+                        <div class="media-gallery" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                            <!-- Image Gallery -->
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250329_110033_770@1637245024.jpg" alt="Classroom Fun">
+                                <div class="media-caption">Excursion Fun with the staff</div>
+                            </div>
+                            <div class="media-card">
+                                <img src="school pics/Snapchat-1307658455.jpg" alt="Classroom Fun">
+                                <div class="media-caption">Classroom Fun</div>
+                            </div>
+                            <div class="media-card">
+                                <img src="school pics/Snapchat-327234941.jpg" alt="Excursion Day Highlights">
+                                <div class="media-caption">Excursion</div>
+                            </div>
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250329_130742_719@1637245794.jpg" alt="Excursion Day Highlights">
+                                <div class="media-caption">Excursion</div>
+                            </div>
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250329_105612_248@1637245017.jpg" alt="Excursion Day Highlights">
+                                <div class="media-caption">Excursion</div>
+                            </div>
+                            <div class="media-card">
+                                <img src="school pics/Snapchat-1633115458.jpg" alt="Library Time">
+                                <div class="media-caption">History Moments</div>
+                            </div>
+                            <div class="media-card ">
+                                    <img src="school pics/IMG_20250328_095642_085@1637217249.jpg" alt="Library Time">
+                                    <div class="media-caption">African Day with Sir.BEN </div>
+                
+                            </div>
+                            <div class="media-card" style="height: 400px; width: 200px;">
+                                <video width="250" autoplay muted loop>
+                                    <source src="school videos/VID-20250330-WA0006.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="media-caption">METAL CROSS</div>
+                            </div>
+                            <div class="media-card" style="height: 700px;">
+                                <video width="250" autoplay muted loop>
+                                    <source src="school videos/lv_6974412971267165441_20250330132033.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="media-caption">Excursion</div>
+                            </div>
+                            <div class="media-card" style="height: 700px;">
+                                <video width="500" autoplay muted loop>
+                                    <source src="school video/VID-20250330-WA0007.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="media-caption">Excursion</div>
+                            </div>
+                            <div class="media-card" style="height: 700px;">
+                                <video width="500" autoplay muted loop>
+                                    <source src="school video/VID-20250330-WA0008.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <div class="media-caption">History Tym @METAL CROSS</div>
+                            </div>
+                            
+                            
+                        </div>
+                    
+                        <!-- School Stories -->
+                        <div class="stories-section" style="margin-top: 30px;">
+                            <h3>📚 Student Stories and School News</h3>
+                            <div class="story">
+                                <h4>Our Trip to the Science Museum</h4>
+                                <p>Last month, our Grade 5 students had an exciting field trip to the National Science Museum. They explored robotics, space tech, and hands-on science experiments. It was a day full of discovery!</p>
+                            </div>
+                            <div class="story">
+                                <h4>African Day Celebration</h4>
+                                <p>To mark National African  Day, students dressed up as their favorite African wear and performed skits. The event was filled with creativity and fun learning!</p>
+                            </div>
+                        </div>
+                        <div class="media-card">
+                            <video width="500" autoplay muted loop>
+                                <source src="school videos/VID_20250407_101300.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="media-caption">Classroom Fun 😂😂 I can't Laugh 🤣🤣🤣</div>
+                        </div>
+                        <div class="story">
+                            <h4>Excursion  Wahala at KWAME NKRUMAH  Museum</h4>
+                           
+                            <p>
+                                <div class="media-card" >
+                                    <video width="500" autoplay muted loop>
+                                        <source src="school video/VID_20250329_113333.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <div class="media-caption">Student @ KWAME NKRUMAH  Museum.</div>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="media-gallery" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                            <!-- Image Gallery -->
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250329_111559_035@1637245114.jpg" alt="Classroom Fun">
+                                <div class="media-caption">Student chilling on the lengend Dr. Kwame Nkrumah's Bed !</div>
+                            </div>
+                            <div class="media-gallery" >
+                                <!-- Image Gallery -->
+                                <div class="media-card">
+                                    <img src="school pics/IMG_20250328_094725_999@1637217151.jpg" alt="Classroom Fun">
+                                    <div class="media-caption">African day with Sir Ben and the Baby Girl Paulina</div>
+                            </div>
+                        </div>
+                        <div class="media-gallery" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                            <!-- Image Gallery -->
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250328_095500_971@1637217244.jpg" alt="Classroom Fun">
+                                <div class="media-caption">African day</div>
+                        </div>
+                        </div>
+                        <div class="media-gallery" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                            <!-- Image Gallery -->
+                            <div class="media-card">
+                                <img src="school pics/Snapchat-2131416335.jpg" alt="Classroom Fun">
+                                <div class="media-caption">Excursion Fun with Sir. David and He is scared too😂😂</div>
+                        </div>
+                        <div class="media-gallery" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                            <!-- Image Gallery -->
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250408_101603_732@1638079108.jpg" alt="Classroom Fun">
+                                <div class="media-caption">Paulina vibing with the 😍 Girls 😂😂</div>
+                        </div>
+                        <div class="media-gallery" style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                            <!-- Image Gallery -->
+                            <div class="media-card">
+                                <img src="school pics/IMG_20250408_101322_923@1638079104.jpg" alt="Classroom Fun">
+                                <div class="media-caption">The guys are hungry 😂😂</div>
+                        </div>
+                        <div class="media-card" >
+                            <video width="500" autoplay muted loop>
+                                <source src="school video/VID_20250408_135358.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="media-caption">Student 🤣🤣🤣🤣</div>
+                        </div>
+                        <div class="media-card" >
+                            <video width="500" autoplay muted loop>
+                                <source src="school video/VID_20250408_135216.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="media-caption">Student @ ❤❤❤😍😘😘💞💞</div>
+                        </div>
+                        <div class="media-card" >
+                            <video width="500" autoplay muted loop>
+                                <source src="school video/VID_20250408_135525.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="media-caption">SIR ERA SECTION 😧😧✍✍✍</div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+    <!-- About Section -->
+    <section id="about" class="content-section" style="display: none;  color: rgb(0, 0, 0);">
+        <div class="container" style="background-color: aliceblue;">
+            <h2><b>About Us</b></h2>
+            <p>Day Star Christian Academy is committed to academic excellence and strong moral values.</p>
+            <p>Day Star Christian Academy ...We have Pre. School, Nusery, Primary and J.H.S.</p>
+        </div>
+    </section>
+
+    <!-- Staff Login Section -->
+    <section id="staff-login" class="content-section" style="display: none;">
+        <div class="container">
+            <label for="profile-picture">Upload Profile Picture:</label>
+            <input type="file" id="profile-picture" accept="image/*">
+
+            <h2><b>Staff Login</b></h2>
+            <p id="error-message" style="color: red;"></p>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                
+                <label for="password" >Password:</label>
+                <input type="password" id="password" required>
+
+                <label for="class-select">Select Class:</label>
+                    <select id="class-select" style="color:yellow; background-color: black;">
+                        <option value="Nursery">Nursery</option>
+                        <option value="KG">KG </option>
+                        <option value="Class 1">Class 1</option>
+                        <option value="Class 2">Class 2</option>
+                        <option value="Class 3">Class 3</option>
+                        <option value="Class 4">Class 4</option>
+                        <option value="Class 5">Class 5</option>
+                        <option value="Class 6">Class 6</option>
+                        <option value="JHS 1">JHS 1</option>
+                        <option value="JHS 2">JHS 2</option>
+                        <option value="JHS 3">JHS 3</option>
+                    </select>
+
+                
+                <label>Select Subjects:</label>
+                <div>
+                    <input type="checkbox" name="subjects" value="Mathematics"> Mathematics<br>
+                    <input type="checkbox" name="subjects" value="English"> English<br>
+                    <input type="checkbox" name="subjects" value="Science"> Science<br>
+                    <input type="checkbox" name="subjects" value="History"> History<br>
+                    <input type="checkbox" name="subjects" value="Computing"> Computing(ICT)<br>
+                    <input type="checkbox" name="subjects" value="Social Studies">Social Studies<br>
+                    <input type="checkbox" name="subjects" value="Fantse"> Fantse<br>
+                    <input type="checkbox" name="subjects" value="CAD"> CAD<br>
+                    <input type="checkbox" name="subjects" value="CAT"> CAT<br>
+                    <input type="checkbox" name="subjects" value="RME">RME<br>
+                    <input type="checkbox" name="subjects" value="OWOP"> OWOP<br>
+                    </div>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section>
+      <!-- Contact Section -->
+      <section id="contact" class="content-section" style="display: none; color: aliceblue;">
+        <div class="container">
+            <h2><b>Contact Us</b></h2>
+            <p>Email: ikeobeng991@gmail.com</p>
+            <p>Phone: +233-556-269-496</p>
+            <p>Location: Western Region / Shama-District @Ohiamadwen</p>
+        </div>
+         <!-- Media Handles -->
+       
+<div class="media-handles">
+    <h2 id="follow-us"  >Follow Us @</h2>
+    <div class="handle">
+        <a href="https://web.facebook.com/YawQuayson" target="_blank">
+            <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+    </div>
+    <div class="handle">
+        <a href="mailto:quaysonf142@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i> Gmail
+        </a>
+    </div>
+
+    <div class="handle">
+        <a href="https://www.TikTok.com/@yaw_quayson_1" target="_blank">
+            <i class="fab fa-tiktok"></i> TikTok
+        </a>
+    </div>
+    <div class="handle">
+        <a href="https://wa.me/0556269496" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+   
+</div>
+    </section>
+
+    <!-- Staff Dashboard -->
+    <section id="dashboard" class="content-section" style="display: none;">
+        <div class="container">
+            <img id="teacher-profile-pic" src="default-profile.jpg" alt="Profile Picture" width="100" height="100" style="border-radius: 50%;">
+
+            <h2>Welcome,   <span id="teacher-name"></span>!</h2>
+            <p>Your Staff ID: <span id="teacher-id"></span></p>
+            
+            <p><strong>Class Assigned:</strong> <span id="teacher-class"></span></p>
+            
+                    <!-- Date & Time Display -->
+            <div class="date-time-container">
+                <p><strong>Date:</strong> <span id="current-date"></span></p>
+                <p><strong>Time:</strong> <span id="current-time"></span></p>
+            </div>
+           
+            <h3>Your Subjects:</h3>
+            <ul id="teacher-subjects"></ul>
+            
+            <h3>Your Timetable</h3>
+            <ul id="timetable"></ul>
+
+            <h3>Your Lesson Plan</h3>
+            <!-- List of default files -->
+                <ul class="file-list">
+                    <li onclick="loadFile('B7 T2 SCHEME OF LEARNING 2025.pdf')">JHS 1</li>
+                    <li onclick="loadFile('B8 T2 SCHEME OF LEARNING 2025.pdf')">JHS 2</li>
+                    <li onclick="loadFile('B9 T2 SCHEME OF LEARNING 2025.pdf')">JHS 3</li>
+                </ul>
+
+                <!-- Container to display the selected file -->
+                <div class="file-container">
+                    <iframe id="file-display" src="" style="display:none;"></iframe>
+                    <p id="file-not-found" style="display:none;">The selected file is not available.</p>
+                </div>
+            <p id="lesson-plan"></p>
+            
+            <button onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+    <script>
+        
+            document.addEventListener("DOMContentLoaded", function () {
+            const loginForm = document.getElementById("login-form");
+            const timetableList = document.getElementById("timetable");
+            const lessonPlan = document.getElementById("lesson-plan");
+            const subjectList = document.getElementById("teacher-subjects");
+            const profileInput = document.getElementById("profile-picture");
+            const profilePic = document.getElementById("teacher-profile-pic");
+            const classSelect = document.getElementById("class-select");
+
+            const staffUsers = {
+                "Francis Quayson": "12345fq",
+            };
+
+           
+
+            if (loginForm) {
+                loginForm.addEventListener("submit", function (event) {
+                    event.preventDefault();
+
+                    let username = document.getElementById("username").value;
+                    let password = document.getElementById("password").value;
+                    let selectedClass = classSelect.value;
+                    let selectedSubjects = Array.from(document.querySelectorAll("input[name='subjects']:checked"))
+                        .map(checkbox => checkbox.value);
+                    
+                    let errorMessage = document.getElementById("error-message");
+
+                    if (staffUsers[username] && staffUsers[username] === password) {
+                        sessionStorage.setItem("teacher", username);
+                        sessionStorage.setItem("subjects", JSON.stringify(selectedSubjects));
+                        sessionStorage.setItem("teacherClass", selectedClass);
+                        showSection("dashboard");
+                        document.getElementById("teacher-name").innerText = username;
+                        document.getElementById("teacher-id").innerText = username.toUpperCase();
+                        subjectList.innerHTML = selectedSubjects.map(sub => `<li>${sub}</li>`).join('');
+
+                        timetableList.innerHTML = selectedSubjects.flatMap(sub => subjectData[sub].timetable)
+                            .map(item => `<li>${item}</li>`).join('');
+                        lessonPlan.innerText = selectedSubjects.map(sub => subjectData[sub].lessonPlan).join('\n\n');
+                        if (profileInput.files.length > 0) {
+                            let reader = new FileReader();
+                            reader.onload = function (event) {
+                                sessionStorage.setItem("profilePic", event.target.result);
+                                profilePic.src = event.target.result;
+                            };
+                            reader.readAsDataURL(profileInput.files[0]);
+                        }   
+                        showSection("dashboard");
+                            document.getElementById("teacher-name").innerText = username;
+                            document.getElementById("teacher-id").innerText = username.toUpperCase();
+                            document.getElementById("teacher-class").innerText = selectedClass; // Display selected class
+                    } else {
+                        errorMessage.innerText = "Invalid Credentials!";
+                    }
+                });
+                
+            }
+            // Load profile picture AND Class on dashboard
+            if (sessionStorage.getItem("profilePic")) {
+                profilePic.src = sessionStorage.getItem("profilePic");
+            }
+            if (sessionStorage.getItem("teacherClass")) {
+                document.getElementById("teacher-class").innerText = sessionStorage.getItem("teacherClass");
+            }
+            
+        });
+
+        function showSection(sectionId) {
+    if (sectionId === 'home') {
+        location.reload(); // Refresh the page if Home is clicked
+        return;
+    }
+
+    // Hide all sections
+    const sections = document.querySelectorAll("section");
+    sections.forEach(section => section.style.display = "none");
+
+    // Show the selected section
+    const target = document.getElementById(sectionId);
+    if (target) {
+        target.style.display = "block";
+    }
+}
+
+        function logout() {
+            sessionStorage.removeItem("teacher");
+            sessionStorage.removeItem("subjects");
+            showSection("staff-login");
+        }
+        function updateDateTime() {
+            let now = new Date();
+            
+            // Format Date
+            let dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            let formattedDate = now.toLocaleDateString("en-US", dateOptions);
+            
+            // Format Time
+            let formattedTime = now.toLocaleTimeString("en-US", { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+
+            // Display Date & Time
+            document.getElementById("current-date").innerText = formattedDate;
+            document.getElementById("current-time").innerText = formattedTime;
+        }
+
+        // Update the time every second
+        setInterval(updateDateTime, 1000);
+
+        // Run once on page load
+        updateDateTime();
+                // JavaScript to handle file selection and display
+        function loadFile(fileName) {
+            // Set the src of the iframe to load the selected file
+            const iframe = document.getElementById('file-display');
+            const fileNotFound = document.getElementById('file-not-found');
+            
+            // Check if the file exists in the folder (simulation)
+            const filePath = 'uploads/' + fileName; // Assuming files are in 'uploads/' folder
+            
+            // Simulating file check (in real scenario, the check would be server-side)
+            const fileExists = true; // Simulate a successful file check
+            
+            if (fileExists) {
+                // If the file exists, load it into the iframe
+                iframe.src = filePath;
+                iframe.style.display = 'block'; // Show the iframe
+                fileNotFound.style.display = 'none'; // Hide the not-found message
+            } else {
+                // If the file doesn't exist, show the 'file not found' message
+                iframe.style.display = 'none'; // Hide the iframe
+                fileNotFound.style.display = 'block'; // Show the not-found message
+            }
+        }
+       
+    function toggleModal() {
+    document.getElementById("schoolModal").style.display = "block";
+    document.body.classList.add("modal-open");
+}
+
+function closeModal() {
+    document.getElementById("schoolModal").style.display = "none";
+    document.body.classList.remove("modal-open");
+}
+
+
+    </script>
+</body>
+</html>
